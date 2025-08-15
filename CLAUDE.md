@@ -28,7 +28,8 @@ Since this is a static HTML project:
 ```
 nikoupdate/
 ├── index.html          # Main page with player statistics table
-├── secon.html          # Secondary page
+├── secon.html          # Secondary page  
+├── styles.css          # CSS styles with responsive design
 └── images/             # Image assets
     ├── 2024-01-07_12.56.10.png
     ├── 2024-01-09_20.37.18.png
@@ -37,6 +38,6 @@ nikoupdate/
 
 ## Notes
 
-- The HTML in `secon.html` has a syntax error (missing `>` in the body tag: `<body">`)
-- The table in `index.html` appears incomplete (missing data for Pele's goals and some rows are incomplete)
 - All text content is in Georgian language
+- The site uses modern CSS with gradients, responsive design, and hover effects
+- Navigation between pages is handled through simple anchor links

@@ -1,0 +1,23 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ballGradient" cx="0.3" cy="0.3">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#f0f0f0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main ball -->
+  <circle cx="10" cy="10" r="9" fill="url(#ballGradient)" stroke="#000" stroke-width="0.5"/>
+  
+  <!-- Soccer ball pattern -->
+  <!-- Pentagon in center -->
+  <polygon points="10,4 13,6.5 12,10 8,10 7,6.5" fill="#000" stroke="#000" stroke-width="0.3"/>
+  
+  <!-- Hexagons around -->
+  <polygon points="10,4 13,6.5 15,4.5 13,2 8,2 7,6.5" fill="none" stroke="#000" stroke-width="0.5"/>
+  <polygon points="13,6.5 12,10 16,12 17,8 15,4.5" fill="none" stroke="#000" stroke-width="0.5"/>
+  <polygon points="12,10 8,10 4,12 3,8 5,4.5 7,6.5" fill="none" stroke="#000" stroke-width="0.5"/>
+  <polygon points="8,10 7,6.5 5,4.5 3,8 4,12 8,14 12,10" fill="none" stroke="#000" stroke-width="0.5"/>
+  <polygon points="12,10 16,12 15,16 8,14 4,12" fill="none" stroke="#000" stroke-width="0.5"/>
+</svg>
